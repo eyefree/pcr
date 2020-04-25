@@ -1,0 +1,7 @@
+1 所有数据均来源于公主连接redive日服官网https://priconne-redive.jp/news/
+2 运行需要安装selenium、csv、pandas等库（注：需下载chromedriver）
+3 pcr.py抓取时间、标签、事件、内容等文字数据
+pcr_img.py抓取对应的活动图片
+insertImg.py将图片插入image.xlsx表（一列），并修改pcr.xlsx(已重命名为pcr(千里眼-无图-日文).xlsx)的单元格的高度以适应图片的大小。
+4 最后手动将image.xlsx复制到（Ctrl+C）pcr.xlsx中，形成pcr(千里眼-有图-日文).xlsx。另外，pcr(千里眼-无图-中文).xlsx来源于谷歌翻译。
+以上。
